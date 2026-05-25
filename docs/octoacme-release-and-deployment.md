@@ -10,13 +10,22 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 
 ## Pre-release requirements
 - All acceptance criteria met and PRs merged
-- Passing CI and security scans
+- Passing CI and security scans (confirmed by DevOps Engineer)
+- QA Automation Engineer confirms all automated regression tests pass
+- UX/UI Designer sign-off on user-facing changes
+- Business Analyst confirms delivered solution meets documented requirements
 - Release notes drafted
-- Rollback / mitigation plan documented
+- Rollback / mitigation plan documented and reviewed with DevOps Engineer and Support/Operations (SRE)
 - Smoke tests prepared
+- Support/Operations (SRE) briefed on the release and updated runbooks/alerts ready
 
 ## Deployment Checklist
-- [ ] Deployment window scheduled (if needed)
+- [ ] Deployment window scheduled and communicated (PM coordinates with DevOps Engineer)
+- [ ] DevOps Engineer confirms pipeline and infrastructure readiness
+- [ ] QA Automation Engineer confirms all automated tests pass in staging
+- [ ] UX/UI Designer has completed design QA on all user-facing changes
+- [ ] Business Analyst has validated acceptance criteria are met
+- [ ] Support/Operations (SRE) has reviewed release notes and updated monitoring/alerting
 - [ ] Backup or snapshot (if applicable)
 - [ ] Deploy to staging and run smoke tests
 - [ ] Deploy to production (automated pipeline preferred)

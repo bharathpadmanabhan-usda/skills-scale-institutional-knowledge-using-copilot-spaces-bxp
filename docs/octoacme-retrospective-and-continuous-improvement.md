@@ -11,6 +11,9 @@ After each sprint, release, or important milestone. Also after incidents.
 - What could be improved
 - Action items (owner, due date)
 - Follow-up on previous action items
+- Operational incidents or reliability issues to address (raised by Support/Operations SRE)
+- Automation and tooling improvements to prioritize (raised by QA Automation Engineer and DevOps Engineer)
+- UX or usability issues surfaced through user feedback or design QA
 
 ## Running a Retrospective
 - Timebox: 45–75 minutes depending on team size
