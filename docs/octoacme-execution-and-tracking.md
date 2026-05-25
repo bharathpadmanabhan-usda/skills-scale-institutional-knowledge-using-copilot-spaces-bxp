@@ -20,8 +20,11 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Unit tests for new logic
 - Integration tests where applicable
 - End-to-end smoke tests for critical flows before release
-- Security scanning in CI
+- Security scanning in CI (maintained by DevOps Engineer)
+- QA Automation Engineer maintains regression suites and integrates them into CI pipelines
 - Manual QA for feature acceptance when needed
+- UX/UI Designer performs design QA on implemented front-end features before sprint review
+- Accessibility checks included as part of the Definition of Done for user-facing changes
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -35,6 +38,11 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
-- [ ] CI configured for tests and lint
+- [ ] CI configured for tests and lint (DevOps Engineer owns pipeline setup)
+- [ ] Automated regression suite integrated into CI (QA Automation Engineer)
+- [ ] Design specs (wireframes/prototypes) handed off to Developers before sprint start (UX/UI Designer)
+- [ ] Design QA completed by UX/UI Designer before sprint demo
+- [ ] Business Analyst available to clarify requirements and review acceptance criteria during the sprint
 - [ ] Regular demos scheduled
+- [ ] Support/Operations (SRE) notified of in-flight changes with operational risk noted
 - [ ] Risk register updated weekly

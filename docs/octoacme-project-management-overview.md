@@ -18,6 +18,11 @@ Applies to all cross-functional projects that deliver product features, services
 - Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
 - Developers: implement features, collaborate on design and testability.
 - QA/Testing: validate quality and acceptance criteria.
+- UX/UI Designer: designs user experiences, prototypes, and ensures usability and accessibility.
+- Business Analyst (BA): gathers and documents requirements, bridges business and technical teams.
+- DevOps Engineer: owns CI/CD pipelines, infrastructure, and deployment automation.
+- QA Automation Engineer: builds and maintains automated test suites integrated into CI.
+- Support/Operations (SRE): monitors production, responds to incidents, and feeds learnings into retrospectives.
 - Stakeholders: provide inputs and approvals.
 
 ## Key Artifacts
@@ -26,6 +31,7 @@ Applies to all cross-functional projects that deliver product features, services
 - Sprint/Iteration Backlog
 - Acceptance Criteria & Definition of Done
 - Risk Register
+- RACI Matrix (see [RACI Template](./octoacme-raci-template.md))
 - Retrospective notes and action items
 
 ## Lifecycle (high-level)

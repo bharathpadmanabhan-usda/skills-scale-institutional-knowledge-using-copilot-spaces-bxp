@@ -14,7 +14,7 @@ Whenever a new project idea or feature proposal is ready to be explored.
 
 ## Minimum Deliverables
 - Project One-pager (Problem, Goal, Success Metrics)
-- Stakeholder list & communication plan
+- Stakeholder list & communication plan (include UX/UI Designer, Business Analyst, DevOps Engineer, QA Automation Engineer, and Support/Operations as applicable)
 - High-level timeline and key milestones
 - Initial risk list
 - Resource needs (team roles, rough effort estimate)
@@ -31,6 +31,7 @@ Whenever a new project idea or feature proposal is ready to be explored.
 
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
+- [ ] Required roles identified: PM, PdM, Developers, QA, UX/UI Designer (if user-facing), Business Analyst (if complex requirements), DevOps Engineer, QA Automation Engineer, Support/Operations (SRE)
 - [ ] Sponsor / Stakeholder alignment (email or meeting)
 - [ ] Decision: Approve to move into planning?
 - [ ] Create repo or project board skeleton
